@@ -24,11 +24,11 @@
       </div>
       <div class="mt-auto text-center social-media-container">
         <a
-          v-if="facebook"
-          :href="facebook"
+          v-if="Github"
+          :href="Github"
           target="_blank"
           class="text-body mx-2 my-3"
-          >Facebook</a
+          >Github</a
         >
         <a
           v-if="instagram"
@@ -68,7 +68,7 @@ export default {
         process.env.VUE_APP_DISCLAIMER_FIRST_LINE,
         process.env.VUE_APP_DISCLAIMER_SECOND_LINE,
       ],
-      facebook: process.env.VUE_APP_FACEBOOK,
+      Github: process.env.VUE_APP_GITHUB,
       instagram: process.env.VUE_APP_INSTAGRAM,
       youtube: process.env.VUE_APP_YOUTUBE,
       linkedin: process.env.VUE_APP_LINKEDIN,
